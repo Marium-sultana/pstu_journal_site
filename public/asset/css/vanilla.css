@@ -49,7 +49,7 @@ li {
 #header {
 	background: url(homeHeaderTitleImage.png) no-repeat !important;
 	padding:0;
-	margin-top: -28px;
+	/* margin-top: -28px; */
 	margin-left: 0px;
 	padding-right: 8px;
 	-moz-border-radius: 5px; 
@@ -66,7 +66,13 @@ li {
 	width: auto;
 }
 #footer {
-	background-color: #ABA;
+	background-color: #00b300;
+	width: 101%;
+}
+#footer p{
+	text-align: center;
+	margin-bottom: 10px;
+	padding-bottom: 40px;
 }
 #body {
 	position:relative;
@@ -283,9 +289,9 @@ input.defaultButton {
 	margin-bottom: 30px;
 	margin-top: 10px;
 	float:left;
-	box-shadow: 4px 4px 3px #333;
-	-moz-box-shadow: 4px 4px 3px #333;
-	-webkit-box-shadow: 4px 4px 3px #333;
+	/* box-shadow: 4px   #333;
+	-moz-box-shadow: 4px   #333;
+	-webkit-box-shadow: 4px   #333; */
 }
 #headerTitle {
 	color: #ffffff;

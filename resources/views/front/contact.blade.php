@@ -15,5 +15,6 @@ If you need any help, please contact to: <br>
 	<br>Phone: +8801967958808, +88-04427-56014 Ext. 424
 	
 
+	</div>
 
 @endsection

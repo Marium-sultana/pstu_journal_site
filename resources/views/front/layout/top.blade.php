@@ -20,3 +20,6 @@
 <link rel="icon" type="images/ico" href="{{url('/')}}/public/storage/images/favicon-16x16.png">
 
 <link rel="stylesheet" href="{{url('/')}}/public/asset/css/vanilla.css" type="text/css" />
+
+<!-- font awsome -->
+<script src="https://kit.fontawesome.com/a985fe9983.js" crossorigin="anonymous"></script>

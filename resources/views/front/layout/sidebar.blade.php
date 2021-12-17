@@ -1,14 +1,40 @@
+<style>
+    .check_box{
+        margin-left: -18px;
+        margin-right:15px;
+        margin-bottom:15px;
+        color:green;
+    }
+    .line_style{
+        height:2px;
+        width:100%;
+        border-width:0;
+        color:#c6ecd9;
+        background-color:#39ac73;
+        margin-left: -20px;
+    }
+</style>
+
+
 <div id="sidebar">
     <div id="leftSidebar">
         <div class="block" id="sidebarUser">
             <span class="blockTitle">Journal Menu</span>
-            <ul class="sidemenu">
-                <li><a href="{{url('/')}}">Home</a></li>
-                <li><a href="{{url('/manuscript_submission')}}">Manuscript Submission </a></li>
-                <li><a href="{{url('/author_guidelines')}}">Author Guidelines</a></li>
-                <li><a href="{{url('/help_desk')}}">Help Desk</a></li>
+            <ul class="sidemenu" style="margin-top: 10%">
+           
+                <i class="fas fa-check-square check_box"></i><a href="{{url('/')}}" style="color:black">Home</a><br>
+                <hr class="line_style">
+          
+                <i class="fas fa-check-square check_box"></i><a href="{{url('/manuscript_submission')}}" style="color:black">Manuscript Submission </a><br>
+                <hr class="line_style">
+            
+            <i class="fas fa-check-square check_box"></i><a href="{{url('/author_guidelines')}}" style="color:black">Author Guidelines</a><br>
+            <hr class="line_style">
+         
+            <i class="fas fa-check-square check_box"></i><a href="{{url('/help_desk')}}" style="color:black">Help Desk</a>
+            <hr class="line_style">
+        
             </ul>
-
         </div>
 
 
@@ -16,7 +42,7 @@
         <span class="blockTitle">Current Issue</span>
         <p align="justify"> 
         @if(isset($issueImage->image_location))
-            <img id="previewImg" src="{{url('/')}}/public/storage/banner/{{$issueImage->image_location}} " width="160" height="200"  style="margin-left: 30px;margin-top: 10px;"/> 
+            <img id="previewImg" src="{{url('/')}}/public/storage/banner/{{$issueImage->image_location}}" width="160" height="200"  style="margin-left: 30px;margin-top: 10px;"/> 
         @else
             <img id="previewImg" src="" alt="Preview Image" style="display:none" height="200" width="150"/>                               
         @endif

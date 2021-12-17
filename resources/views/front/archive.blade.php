@@ -17,9 +17,15 @@
 				<h3>{{$year}}</h3>
 					@foreach ($infoIssue as $issue) 							
 						<div id="i" style="clear:left;">
-							<h4><a href="{{url('/view_article/'.$issue->id)}}">{{$issue->issue_name}}</a></h4>
+							<h4><i class="fas fa-check-square check_box" style="margin-left: 10px;"></i><a href="{{url('/view_article/'.$issue->id)}}">{{$issue->issue_name}}</a></h4>
 					@endforeach
 			@endforeach
      <!-------------------------------------------------------------------------->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 @endsection

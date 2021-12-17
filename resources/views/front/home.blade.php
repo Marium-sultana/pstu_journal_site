@@ -13,6 +13,11 @@
 
 
 <div id=""> <a name="IJIR (ISSN: ) "></a>
+
+
+    <marquee behavior="scroll" direction="left"><b>{{$title}}</b></marquee>
+
+
     <h1>
         <p  style="font-size:20px;align:center" >Journal of the Patuakhali Science And Technology University  (JPSTU)  
             <span class="green"></span>

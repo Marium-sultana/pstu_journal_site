@@ -8,5 +8,6 @@
 <a href="public/storage/cover_letters/Copy_right_agreement_and_authorization_form.docx">
     Copy right agreement and authorization form
 </a>
+</div>
 
 @endsection

@@ -125,5 +125,6 @@
         JPSTU
     </span>
 </p>
+</div>
 
 @endsection

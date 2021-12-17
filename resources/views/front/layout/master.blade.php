@@ -22,5 +22,10 @@
                                                 
                     @yield('content')
 
-                                                <!-- /Google Analytics -->
+                    
+             
+                    <!-- /Google Analytics -->
+
+                    
         @include('front.layout.footer')
+        

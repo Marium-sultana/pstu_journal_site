@@ -24,9 +24,15 @@ class HomePageController extends Controller
         $callPaper = CallPaper::all('text');
         $issueData = Issue::select('id','issue_name','year')->where('status',1)->orderBy('created_at','desc')->first();
         $paperData = UploadedPaper::select('*')->where('issue_id',$issueData->id)->get();
+        $title = '';
+        $sl=1;
+        foreach($paperData as $title_data){
+            $title.= $sl.'. '.$title_data->paper_title.' '.' ';
+            $sl++;
+        }
 
-        //dd($issueImage);
-        return view('front.home',compact('issueImage','wiseWord','callPaper','coverImage','paperData'));
+        // dd($title);
+        return view('front.home',compact('issueImage','wiseWord','callPaper','coverImage','paperData','title'));
     }
 
     public function manuscript()

@@ -121,5 +121,6 @@
     })
     </script>
    
+   </div>
 
 @endsection

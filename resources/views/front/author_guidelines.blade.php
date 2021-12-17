@@ -432,5 +432,6 @@
       </span>
       
 </p>
+</div>
 
 @endsection
